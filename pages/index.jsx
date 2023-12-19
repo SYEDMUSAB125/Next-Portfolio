@@ -20,7 +20,7 @@ const Home = () => {
         initial='hidden'
         animate='show'
         exit='hidden'
-         className='max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16'>Crafting the future with lines of code: Whether you're shaping the digital landscape as an IoT developer or weaving the web's magic as a web developer.Together, they bridge the physical and digital realms, let's innovation starts with you.</motion.p>
+         className='max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16'>Crafting the future with lines of code: Whether you are shaping the digital landscape as an IoT developer or weaving the webs magic as a web developer.Together, they bridge the physical and digital realms, lets innovation starts with you.</motion.p>
         <div className='flex justify-center xl:hidden relative'>
           <ProjectBtn/>
         </div>

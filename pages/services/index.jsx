@@ -31,7 +31,7 @@ const Services = () => {
               My Services <span className="text-accent" >.</span>
             </motion.h2>
             <p className="mb-4 max-w-[400px] mx-auto lg:mx-0">
-            I'm an Electronics Engineer and MERN stack virtuoso, fusing hardware and software brilliance. With expertise in TypeScript, Next.js, and Python, I craft seamless web solutions. From circuitry to code, I engineer innovative connections, shaping the digital landscape. Elevate your projects with my dual proficiency in electronics and cutting-edge web developmen
+            I am an Electronics Engineer and MERN stack virtuoso, fusing hardware and software brilliance. With expertise in TypeScript, Next.js, and Python, I craft seamless web solutions. From circuitry to code, I engineer innovative connections, shaping the digital landscape. Elevate your projects with my dual proficiency in electronics and cutting-edge web development
             </p>
             </div>
             <div className="w-full xl:max-w-[65%]">

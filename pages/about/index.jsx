@@ -36,24 +36,24 @@ const aboutData = [
     info: [
       {
         title: 'Web Development',
-        icons: [
+        icons: [ 
           <FaHtml5 />,
-          <FaCss3 />,
-          <FaJs />,
-          <SiTypescript />,
+          <FaCss3  />,
+          <FaJs  />,
+          <SiTypescript  />,
           <SiNodedotjs />,
-          <SiNodemon />,
-          <FaReact />,
-          <SiNextdotjs />,
-          <SiMongodb />,
-          <SiTailwindcss />,
-          <SiPython />,
+          <SiNodemon  />,
+          <FaReact/>,
+          <SiNextdotjs  />,
+          <SiMongodb  />,
+          <SiTailwindcss/>,
+          <SiPython  />,
         
         ],
       },
       {
         title: 'IOT Developer',
-        icons: [<SiArduino />, <SiRaspberrypi />,<SiMultisim/>],
+        icons: [<SiArduino  />, <SiRaspberrypi  />,<SiMultisim />],
       },
     ],
   },
@@ -133,7 +133,7 @@ const About = () => {
           <motion.p variants={fadeIn('right', 0.2)}
         initial='hidden'
         animate='show'
-        exit='hidden' className='max-w-[380px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0'>6 months ago, I began freelancing as a developer. Since then, I've done remote work for agencies,consulted for startups, and collaborated on digital products for business and consumer use.</motion.p>
+        exit='hidden' className='max-w-[380px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0'>6 months ago, I began freelancing as a developer. Since then, I have done remote work for agencies,consulted for startups, and collaborated on digital products for business and consumer use.</motion.p>
        
 
 
@@ -211,8 +211,8 @@ const About = () => {
                 <div className='md:flex hidden '>-</div>
                 <div>{item.stage}</div>
                 <div className='flex gap-x-4'>
-                  {item.icons?.map((icon, itemIndex) => {
-                    return <div className='text-2xl text-white'>{icon}
+                  {item.icons?.map((icon, itemIcon) => {
+                    return <div key={itemIcon}  className='text-2xl text-white'>{icon }
                     </div>
                   })}
                 </div>
