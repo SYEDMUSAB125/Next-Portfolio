@@ -1,32 +1,45 @@
 // icons
 // data
+
+import {
+  SiNextdotjs,
+  SiFramer,
+  SiAdobexd,
+  SiAdobephotoshop,
+  SiTailwindcss,
+  SiTypescript,
+  SiNodedotjs,
+  SiMongodb,
+  SiPython,
+  SiArduino,
+  SiNano,
+  SiNodemon,
+  SiRaspberrypi,
+  SiMultisim,
+} from "react-icons/si";
 const serviceData = [
   {
-    icon: <RxCrop />,
-    title: 'Branding',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-  },
-  {
     icon: <RxPencil2 />,
-    title: 'Design',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    title: 'Web Designing',
+    description: 'Elevate your websites with our cutting edge technology design service to showcase your uniqueness',
   },
   {
     icon: <RxDesktop />,
     title: 'Development',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    description: 'Enhance your projects with our Full Stack expertise MERN, Tailwind CSS, Next.js. ',
   },
   {
-    icon: <RxReader />,
-    title: 'Copywriting',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    icon: < SiMultisim />,
+    title: 'Design Circuit',
+    description: 'Revolutionize circuit design,Multisim and Verilog environments.Reliability converge for cutting-edge electronic solutions',
   },
   {
-    icon: <RxRocket />,
-    title: 'SEO',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    icon: <SiArduino />,
+    title: 'IOT Developer',
+    description: 'Crafting IoT solutions with Arduino and Micro-controller. Seamlessly connecting devices for smart, efficient, and innovative applications in the digital landscape.',
   },
 ];
+
 import {
   RxCrop,
   RxPencil2,
@@ -68,7 +81,7 @@ spaceBetween:15,
       
       serviceData.map((item,index)=>{
         return(<SwiperSlide key={index}>
-  <div className="bg-[rgba(62,56,82,0.15)] h-max rounded-lg px-6 py-8 flex sm:flex-col gap-x-6 sm:gap-x-0 group  cursor-pointer hover:bg-[rgba(89,65,169,0.15)] transition-all duration-300 ">
+  <div className="bg-[rgba(62,56,82,0.15)] h-[340px] rounded-lg px-6 py-8 flex sm:flex-col gap-x-6 sm:gap-x-0 group  cursor-pointer hover:bg-[rgba(89,65,169,0.15)] transition-all duration-300 ">
     <div className="text-4xl text-accent mb-4">{item.icon}</div>
     <div>
       {item.title}
